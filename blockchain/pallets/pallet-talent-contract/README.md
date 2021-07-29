@@ -103,7 +103,7 @@ digest: 32字节文件Hash
   "Status": {
       "_enum": {
         "WaitingToSign": "H256",
-        "WaitingToConfirm": "(AccountId, AccountId, Bytes)",
+        "WaitingToConfirm": "(Option<AccountId>, AccountId, Bytes)",
         "CanTransfer": null
       }
   },
