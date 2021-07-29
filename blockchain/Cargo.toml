@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+	"node",
+	"runtime",
+
+	"pallets/pallet-talent-contract",
+]
+
+[profile.release]
+# Substrate runtime requires unwinding.
+panic = "unwind"
